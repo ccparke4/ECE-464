@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : cell
+Design : RequestQueue
+Version: S-2021.06-SP3
+Date   : Fri Oct 13 18:00:52 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U20                       INV_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+U21                       NOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U22                       NOR3_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U23                       AND2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.0640  
+U24                       NAND2_X1        NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U25                       AND3_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+U26                       NOR2_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.7980  
+U27                       AOI211_X1       NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.3300  
+current_state_reg_0_      DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+current_state_reg_1_      DFFR_X1         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+next_state_reg_0_         DLH_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            2.9260  n
+next_state_reg_1_         DLH_X1          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            2.9260  n
+--------------------------------------------------------------------------------
+Total 12 cells                                             24.7380
+1

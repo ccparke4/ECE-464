@@ -1,0 +1,44 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : RequestQueue
+Version: S-2021.06-SP3
+Date   : Fri Oct 13 18:00:52 2023
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_fast_nldm
+Wire Load Model Mode: top
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: G1 (output port clocked by clock)
+  Path Group: clock
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  current_state_reg_0_/CK (DFFR_X1)      0.0000     0.0000 r
+  current_state_reg_0_/Q (DFFR_X1)       0.0830     0.0830 r
+  U21/ZN (NOR2_X2)                       0.0493     0.1323 f
+  G1 (out)                               0.0000     0.1323 f
+  data arrival time                                 0.1323
+
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clock uncertainty                      0.0500     0.0500
+  output external delay                 -0.5660    -0.5160
+  data required time                               -0.5160
+  -----------------------------------------------------------
+  data required time                               -0.5160
+  data arrival time                                -0.1323
+  -----------------------------------------------------------
+  slack (MET)                                       0.6483
+
+
+1
