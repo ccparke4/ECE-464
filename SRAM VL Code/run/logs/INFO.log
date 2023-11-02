@@ -1,0 +1,19 @@
+# INFO: number of testcases:           4
+# INFO: DONE WITH RESETING DUT
+# INFO:LVL0: ######## Running Test: 1 ########
+# INFO: Reading memory file: ../inputs/test1.dat
+# INFO:LVL0: Test: Passed
+# INFO:LVL0: ######## Running Test: 2 ########
+# INFO: Reading memory file: ../inputs/test2.dat
+# INFO:LVL0: Test: Passed
+# INFO:LVL0: ######## Running Test: 3 ########
+# INFO: Reading memory file: ../inputs/test3.dat
+# INFO:LVL0: Test: Passed
+# INFO:LVL0: ######## Running Test: 4 ########
+# INFO: Reading memory file: ../inputs/test4.dat
+# INFO:LVL0: Test: Passed
+# INFO: Total number of cases  : 4
+# INFO: Total number of passes : 4
+# INFO: Final Results          : 100.00
+# INFO: Final Time Result      : 15900 ns
+# INFO: Final Cycle Result     : 3180 cycles
